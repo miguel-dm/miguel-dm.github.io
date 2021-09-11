@@ -1,1 +1,7 @@
 theme: jekyll-theme-minimal
+baseurl: https://miguel.github.io/
+webrick:
+  headers:
+    My-Header: Miguel Moço
+kramdown:
+    footnote_nr: 1

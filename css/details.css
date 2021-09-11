@@ -1,7 +1,10 @@
 footer, header{
-    visibility: hidden;
+    display: none;
 }
 
 .bold {
     font-weight: bold;
+}
+*{
+    border: none;
 }
