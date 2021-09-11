@@ -1,3 +1,7 @@
+footer, header{
+    visibility: hidden;
+}
+
 .bold {
     font-weight: bold;
 }
