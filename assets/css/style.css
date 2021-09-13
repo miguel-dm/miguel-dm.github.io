@@ -2,7 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
-
+ol > em{
+    color: #267CB9; 
+}
 .navigation{
     list-style: none;
     display: flex;
