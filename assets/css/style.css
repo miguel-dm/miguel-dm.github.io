@@ -3,22 +3,13 @@
 
 @import "{{ site.theme }}";
 
-.navigation
-    ul a:active{
-        background-color:#f0f0f0
-    }
-    strong{
-        color:#222;
-        font-weight:700
-    }
-
-.navigation li+li+li{
-    border-right:none;
-    width:89px
+.navigation{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    max-width:300px;
 }
-
-.navigation a strong{
-    font-size:14px;
-    display:block;
-    color:#222
+.navigation li{
+    text-align:center;
 }
