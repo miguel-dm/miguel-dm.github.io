@@ -2,16 +2,30 @@
 ---
 
 @import "{{ site.theme }}";
-ol em{
+li{
+    padding-bottom: 1rem !important;
+}
+ol em, .education strong{
     color: #267CB9 !important;
 }
 .navigation{
     list-style: none !important;
     display: flex !important;
-    justify-content: space-between !important;
+    justify-content: space-around !important;
     gap: 10px !important;
     max-width:300px !important;
+
 }
 .navigation li{
     text-align:center !important;
+}
+@media print, screen and (max-width: 960px)
+header ul {
+    position: static !important;
+}
+@media print, screen and (max-width: 300px){
+    .navigation{
+        flex-direction: column;
+        padding-left: 0 !important;
+    }
 }
