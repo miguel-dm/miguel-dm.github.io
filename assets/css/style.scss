@@ -1,0 +1,17 @@
+---
+---
+
+@import "{{ site.theme }}";
+ol em{
+    color: #267CB9 !important;
+}
+.navigation{
+    list-style: none !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    gap: 10px !important;
+    max-width:300px !important;
+}
+.navigation li{
+    text-align:center !important;
+}
