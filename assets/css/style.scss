@@ -25,6 +25,11 @@ ol em, .education strong{
 .navigation li{
     text-align:center !important;
 }
+// contradict Theme CSS
+a:hover, a:focus{
+    color: inherit !important;
+    font-weight: normal !important;
+}
 ///////////////////////////////////////////////
 // Effect by: https://codepen.io/gabrielcojea/pens/public
 .underline{
@@ -36,13 +41,12 @@ ol em, .education strong{
   bottom: 0;
   right: 0;
   width: 0;
-  height: 2px;
-  background-color: #0074D9;
-  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  height: 1px;
+  background-color: #ff9933;
+  transition: width 0.8s cubic-bezier(0.25, 1, 0.5, 1);
 }
 @media (hover: hover) and (pointer: fine) {
   .underline:hover::before{
-    font-weight: normal !important;
     left: 0;
     right: auto;
     width: 100%;
